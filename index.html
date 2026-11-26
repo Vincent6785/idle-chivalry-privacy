@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idle Chivalry — Politique de confidentialité / Privacy policy</title>
+<meta name="description" content="Politique de confidentialité du jeu Idle Chivalry pour Android (rapports d'erreur facultatifs). Privacy policy of the Idle Chivalry game for Android (optional error reports).">
+<!--
+  Page autonome : aucune ressource externe (pas de police, de script ni de traceur),
+  pour ne transmettre aucune donnée des visiteurs à des tiers.
+-->
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6eedb; --fg: #3b2a1a; --muted: #7a6348; --accent: #9c2b1e; --line: #c9b283;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #231a13; --fg: #f1e3c4; --muted: #c9b283; --accent: #f0c452; --line: #5a4432; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    padding: 32px max(16px, env(safe-area-inset-left)) 64px max(16px, env(safe-area-inset-right));
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; color: var(--accent); letter-spacing: .02em; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  nav { margin: 1rem 0 2rem; display: flex; gap: 1rem; }
+  nav a, a { color: var(--accent); }
+  section + section { border-top: 1px solid var(--line); margin-top: 3rem; padding-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="#fr" hreflang="fr">Français</a><a href="#en" hreflang="en">English</a></nav>
+
+  <section id="fr" lang="fr">
+    <h1>Idle Chivalry — Politique de confidentialité</h1>
+    <p class="muted">Dernière mise à jour : 26 novembre 2026</p>
+
+    <p>Idle Chivalry est un jeu incrémental médiéval pour Android. Cette page explique quelles données l'application traite. En résumé : <strong>Idle Chivalry ne demande aucun compte, n'affiche aucune publicité et ne collecte rien d'autre que les rapports d'erreur décrits ici, uniquement si vous les acceptez.</strong></p>
+
+    <h2>Éditeur</h2>
+    <p>Idle Chivalry est publié par Vincent Calmes-Portier. Contact : <a href="mailto:repro-vca@proton.me">repro-vca@proton.me</a>.</p>
+
+    <h2>Données enregistrées sur votre téléphone</h2>
+    <p>Idle Chivalry enregistre <strong>uniquement sur votre appareil</strong> votre partie et vos réglages (son, musique, vibrations, rappel, langue, choix concernant les rapports d'erreur). Ces informations ne quittent jamais le téléphone. Le composant de rapports d'erreur y crée aussi, dès le premier lancement, un identifiant d'installation aléatoire (fichier <code>sentry.dat</code>) : il reste sur l'appareil, et le jeu le retire de tout rapport envoyé. Tout cela est supprimé quand vous désinstallez l'application ou effacez ses données dans les paramètres d'Android.</p>
+
+    <h2>Rapports d'erreur (facultatifs)</h2>
+    <p>Au premier lancement, le jeu vous demande s'il peut envoyer des rapports d'erreur. <strong>Rien n'est envoyé tant que vous n'avez pas accepté.</strong> Si vous acceptez, le jeu envoie un rapport quand une erreur survient. Un rapport contient :</p>
+    <ul>
+      <li>l'erreur, l'endroit du code du jeu où elle s'est produite et les derniers messages techniques du jeu avant l'erreur ;</li>
+      <li>la version du jeu ;</li>
+      <li>les caractéristiques techniques du téléphone, ajoutées par le SDK Sentry : modèle, architecture, version d'Android, mémoire et stockage disponibles, écran, processeur graphique, langue et fuseau horaire, ainsi que des mesures de performance du jeu au moment de l'erreur.</li>
+    </ul>
+    <p>Un rapport ne contient ni votre nom, ni votre partie, ni votre position, ni capture d'écran. Le jeu retire de chaque rapport l'utilisateur, l'identifiant d'installation et l'identifiant d'appareil que le SDK y met d'office.</p>
+    <p><strong>Pourquoi :</strong> seulement pour trouver et corriger les erreurs du jeu. Les rapports ne sont ni vendus, ni partagés, ni utilisés pour la publicité ou pour suivre les joueurs. Base légale : votre consentement (RGPD, article 6.1.a), demandé avant tout envoi.</p>
+    <p><strong>Où :</strong> les rapports partent chiffrés (HTTPS) chez Sentry (Functional Software, Inc.), un service de suivi des erreurs, dans sa région de données de l'Union européenne (Allemagne). Votre adresse IP sert à la connexion mais n'est ni transmise dans le rapport ni conservée, et aucune localisation n'en est déduite.</p>
+    <p><strong>Combien de temps :</strong> Sentry garde les rapports environ 30 jours, la durée de conservation de son offre gratuite au moment de l'écriture, puis les efface. Cette durée dépend de Sentry et peut changer.</p>
+    <p><strong>Changer d'avis :</strong> à tout moment, dans l'onglet « Gloire », réglage « Rapports d'erreur ». Plus rien ne part dès qu'il indique « Désactivé ». Les rapports déjà envoyés s'effacent à la fin de leur durée de conservation ; ils ne portent pas d'identifiant qui permette de retrouver les vôtres, mais vous pouvez écrire au contact ci-dessus.</p>
+
+    <h2>Permissions</h2>
+    <p>Idle Chivalry demande trois permissions : <strong>Internet</strong>, utilisée uniquement pour les rapports d'erreur si vous les avez acceptés ; <strong>vibration</strong>, pour un retour haptique pendant le jeu (désactivable dans l'onglet « Gloire ») ; et <strong>notifications</strong>, demandée seulement si vous activez le réglage « Rappel », pour vous prévenir quand les gains hors ligne sont au plus haut. Ce rappel est programmé par le téléphone lui-même : rien n'est envoyé à un serveur.</p>
+
+    <h2>Google Play</h2>
+    <p>Idle Chivalry est distribué par Google Play. Google peut traiter des données liées au téléchargement et à l'utilisation de ses services selon sa propre <a href="https://policies.google.com/privacy">politique de confidentialité</a>. Google peut aussi fournir à l'éditeur des statistiques anonymes et agrégées (nombre d'installations, plantages) ; elles sont collectées par Google, pas par l'application.</p>
+
+    <h2>Enfants</h2>
+    <p>Idle Chivalry ne demande aucune information personnelle. Les rapports d'erreur, facultatifs, ne contiennent aucune donnée permettant d'identifier un joueur, y compris un enfant.</p>
+
+    <h2>Modifications</h2>
+    <p>Si cette politique change, la nouvelle version sera publiée sur cette page avec sa date de mise à jour.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h1>Idle Chivalry — Privacy policy</h1>
+    <p class="muted">Last updated: November 26, 2026</p>
+
+    <p>Idle Chivalry is a medieval incremental game for Android. This page explains what data the app handles. In short: <strong>Idle Chivalry asks for no account, shows no ads and collects nothing but the error reports described here, and only if you agree to them.</strong></p>
+
+    <h2>Publisher</h2>
+    <p>Idle Chivalry is published by Vincent Calmes-Portier. Contact: <a href="mailto:repro-vca@proton.me">repro-vca@proton.me</a>.</p>
+
+    <h2>Data stored on your phone</h2>
+    <p>Idle Chivalry stores <strong>only on your device</strong> your game progress and your settings (sound, music, vibration, reminder, language, your choice about error reports). This information never leaves your phone. The error reporting component also creates, from the first launch, a random installation ID (file <code>sentry.dat</code>): it stays on the device, and the game removes it from every report sent. All of it is deleted when you uninstall the app or clear its data in Android settings.</p>
+
+    <h2>Error reports (optional)</h2>
+    <p>At first launch, the game asks whether it may send error reports. <strong>Nothing is sent until you agree.</strong> If you agree, the game sends a report when an error occurs, containing:</p>
+    <ul>
+      <li>the error, where it happened in the game's code, and the game's last technical messages before it;</li>
+      <li>the game version;</li>
+      <li>the phone's technical details, added by the Sentry SDK: model, architecture, Android version, available memory and storage, screen, graphics processor, language and time zone, plus game performance measures at the time of the error.</li>
+    </ul>
+    <p>A report contains neither your name, nor your game progress, nor your location, nor any screenshot. The game removes from every report the user, the installation ID and the device ID the SDK adds by default.</p>
+    <p><strong>Why:</strong> only to find and fix the game's errors. Reports are not sold, shared, or used for advertising or tracking. Legal basis: your consent (GDPR, article 6.1.a), asked before anything is sent.</p>
+    <p><strong>Where:</strong> reports are sent encrypted (HTTPS) to Sentry (Functional Software, Inc.), an error tracking service, in its European Union data region (Germany). Your IP address is used for the connection but is neither sent in the report nor stored, and no location is derived from it.</p>
+    <p><strong>How long:</strong> Sentry keeps reports for about 30 days, the retention of its free plan at the time of writing, then deletes them. This period is set by Sentry and may change.</p>
+    <p><strong>Changing your mind:</strong> at any time, in the "Glory" tab, "Error reports" setting. Nothing more is sent once it shows "Off". Reports already sent are deleted at the end of their retention period; they carry no ID that would let us find yours, but you may write to the contact above.</p>
+
+    <h2>Permissions</h2>
+    <p>Idle Chivalry requests three permissions: <strong>Internet</strong>, used only for error reports if you agreed to them; <strong>vibration</strong>, for haptic feedback during play (can be turned off in the "Glory" tab); and <strong>notifications</strong>, requested only if you turn on the "Reminder" setting, to tell you when offline gains are maxed out. This reminder is scheduled by the phone itself: nothing is sent to any server.</p>
+
+    <h2>Google Play</h2>
+    <p>Idle Chivalry is distributed through Google Play. Google may process data related to downloads and to the use of its services under its own <a href="https://policies.google.com/privacy">privacy policy</a>. Google may also give the publisher anonymous, aggregated statistics (number of installs, crashes); these are collected by Google, not by the app.</p>
+
+    <h2>Children</h2>
+    <p>Idle Chivalry asks for no personal information. Optional error reports contain no data that could identify a player, including a child.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be published on this page with its update date.</p>
+  </section>
+</main>
+</body>
+</html>
